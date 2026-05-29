@@ -16,7 +16,7 @@ st.sidebar.write("Выберите интересующий ИИ-модуль:")
 blood_page_exists = os.path.exists("model_blood/blood_page.py")
 sport_page_exists = os.path.exists("model_sport/sport_page.py")
 intel_page_exists = os.path.exists("model_intel/intel_page.py")
-weather_page_exists = os.path.exists("model_StP/weather_page.py") # Путь к 4-й странице погоды
+weather_page_exists = os.path.exists("model_StP/pages/weather_page.py") # Путь к 4-й странице погоды
 
 pages_to_load = []
 

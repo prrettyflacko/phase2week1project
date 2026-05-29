@@ -1,0 +1,10 @@
+streamlit>=1.30.0
+torch
+torchvision
+pillow
+requests
+matplotlib
+seaborn
+pandas
+numpy
+scikit-learn

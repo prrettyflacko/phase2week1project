@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+# Игнорируем папку с исходными датасетами картинок
+data/
+model_StP/data/
+
+# Игнорируем папку виртуального окружения Python
+env/
+venv/
+# Системные файлы macOS
+=======
 # Игнорируем виртуальные окружения Python
 venv/
 .venv/
@@ -17,6 +27,7 @@ env/
 *.rar
 
 # Игнорируем скрытые файлы системы Mac
+>>>>>>> upstream/main
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -29,6 +40,12 @@ env/
 
 # --- ЧТО МЫ МОГЛИ ЗАБЫТЬ: ---
 
+<<<<<<< HEAD
+# Файлы данных (если ваши модели используют тяжелые датасеты)
+*.csv
+*.json
+*.sqlite3
+=======
 # 1. Логи Streamlit и кэш развертывания
 .streamlit/config.toml
 .streamlit/secrets.toml
@@ -42,3 +59,4 @@ env/
 
 app2.py
 data/
+>>>>>>> upstream/main
